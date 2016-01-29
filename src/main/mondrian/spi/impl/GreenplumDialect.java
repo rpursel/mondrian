@@ -54,7 +54,7 @@ public class GreenplumDialect extends PostgreSqlDialect {
     }
 
     public boolean requiresAliasForFromQuery() {
-        return false;
+        return true;
     }
 
     public boolean allowsCountDistinct() {
